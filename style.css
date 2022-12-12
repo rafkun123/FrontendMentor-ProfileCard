@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Plus+Jakarta+Sans:wght@500;800&family=Roboto:wght@100;300;500&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.wrapper-background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: hsl(185deg, 75%, 39%);
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.wrapper-background .wrapper-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  height: 350px;
+  width: 300px;
+  border-radius: 10px;
+  z-index: 10;
+  overflow: hidden;
+}
+.wrapper-background .wrapper-card .bg-pattern-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+.wrapper-background .wrapper-card .picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+.wrapper-background .wrapper-card .picture img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.wrapper-background .wrapper-card .wrapper-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wrapper-background .wrapper-card .wrapper-content .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  color: hsl(229deg, 23%, 23%);
+  margin: 5px;
+}
+.wrapper-background .wrapper-card .wrapper-content .age {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: hsl(227deg, 10%, 46%);
+}
+.wrapper-background .wrapper-card .city {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  top: 20px;
+  font-weight: bold;
+  color: hsl(227deg, 10%, 46%);
+}
+.wrapper-background .wrapper-card hr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  top: 25px;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.wrapper-background .wrapper-card .wrapper-statistics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  top: 30px;
+}
+.wrapper-background .wrapper-card .wrapper-statistics .wrapper-statistics-all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: hsl(227deg, 10%, 46%);
+}
+.wrapper-background .wrapper-card .wrapper-statistics .wrapper-statistics-all p {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+.wrapper-background .wrapper-card .wrapper-statistics .wrapper-statistics-all p:last-child {
+  font-size: 14px;
+  font-weight: normal;
+}
+.wrapper-background .bg-pattern-top {
+  position: relative;
+  top: 50px;
+  left: -450px;
+}
+.wrapper-background .bg-pattern-bottom {
+  position: relative;
+  bottom: 50px;
+  right: -450px;
+}/*# sourceMappingURL=style.css.map */
